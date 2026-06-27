@@ -1,5 +1,6 @@
 import { CircleCheckBig } from "lucide-react";
 import RecoveryLayout from "./RecoveryLayout";
+import { Link } from "react-router-dom";
 
 export default function SuccessPage() {
   return (
@@ -22,9 +23,14 @@ export default function SuccessPage() {
             successfully saved.
           </p>
 
+          <Link
+              to="/login"
+              className="text-blue-600 pointer-cursor"
+            >
           <button className="w-full mt-6 bg-blue-600 text-white py-3 rounded-lg">
             Back to Login
           </button>
+          </Link>
         </div>
       </div>
     </RecoveryLayout>

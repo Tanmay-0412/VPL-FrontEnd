@@ -94,7 +94,7 @@ export default function ResetPassword() {
           </div>
 
            <Link
-              to="/login"
+              to="/success"
               className="text-blue-600 pointer-cursor"
             >
           <button className="w-full bg-blue-600 text-white py-3 rounded-lg">
